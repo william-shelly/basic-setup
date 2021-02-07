@@ -1,11 +1,12 @@
-export class BasicSetup {
+export class Message
+ {
 
     constructor(container, message) {
         this.container = container;
         this.message = message;
     }
 
-    showTest(container, message) {
+    showMessage(container, message) {
         // console.log(message);
         container.innerHTML = message;
     };
